@@ -1,449 +1,1141 @@
 <%!
 public = True
-%>
-<%inherit file="/page" />
+%><%inherit file="/page" />
 
-<div id="content">
+<h2>Journal and Book Covers by NCMI Researchers</h2>
 
-<h1>Partial List of NCMI Publications</h1>
-<ul>
+<table class="advisors">
 
-<h2>2012</h2>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/22696409/">Comparison of Segger and other methods for segmentation and rigid-body docking of molecular components in cryo-EM density maps.</a> (2012) Pintilie, G, Chiu, W. <em>Biopolymers</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/22696403/">Gorgon and pathwalking: macromolecular modeling tools for subnanometer resolution density maps.</a> (2012) Baker, ML, Baker, MR, Hryc, CF, Ju, T, Chiu, W. <em>Biopolymers</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/22696402/">The 2010 cryo-EM modeling challenge.</a> (2012) Ludtke, SJ, Lawson, CL, Kleywegt, GJ, Berman, H, Chiu, W. <em>Biopolymers</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/22472420/">An examination of the electrostatic interactions between the N-terminal tail of the Brome Mosaic Virus coat protein and encapsidated RNAs.</a> (2012) Ni, P, Wang, Z, Ma, X, Das, NC, Sokol, P, Chiu, W, Dragnea, B, Hagan, M, Kao, CC. <em>Journal of molecular biology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/22503819/">The molecular architecture of the eukaryotic chaperonin TRiC/CCT.</a> (2012) Leitner, A, Joachimiak, LA, Bracher, A, Mönkemeyer, L, Walzthoeni, T, Chen, B, Pechmann, S, Holmes, S, Cong, Y, Ma, B, Ludtke, S, Chiu, W, Hartl, FU, Aebersold, R, Frydman, J. <em>Structure (London, England : 1993)</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/22405004/">Constructing and validating initial Cα models from subnanometer resolution density maps with pathwalking.</a> (2012) Baker, MR, Rees, I, Ludtke, SJ, Chiu, W, Baker, ML. <em>Structure (London, England : 1993)</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/22404935/">Supramolecular non-amyloid intermediates in the early stages of α-synuclein aggregation.</a> (2012) Fauerbach, JA, Yushchenko, DA, Shahmoradian, SH, Chiu, W, Jovin, TM, Jares-Erijman, EA. <em>Biophysical journal</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/22285189/">Direct electron detection yields cryo-EM reconstructions at resolutions beyond 3/4 Nyquist frequency.</a> (2012) Bammes, BE, Rochat, RH, Jakana, J, Chen, DH, Chiu, W. <em>Journal of structural biology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/22335738/">Paraneoplastic thrombocytosis in ovarian cancer.</a> (2012) Stone, RL, Nick, AM, McNeish, IA, Balkwill, F, Han, HD, Bottsford-Miller, J, Rupairmoole, R, Armaiz-Pena, GN, Pecot, CV, Coward, J, Deavers, MT, Vasquez, HG, Urbauer, D, Landen, CN, Hu, W, Gershenson, H, Matsuo, K, Shahzad, MM, King, ER, Tekedereli, I, Ozpolat, B, Ahn, EH, Bond, VK, Wang, R, Drew, AF, Gushiken, F, Lamkin, D, Collins, K, DeGeest, K, Lutgendorf, SK, Chiu, W, Lopez-Berestein, G, Afshar-Kharghan, V, Sood, AK. <em>The New England journal of medicine</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/22325770/">Outcome of the first electron microscopy validation task force meeting.</a> (2012) Henderson, R, Sali, A, Baker, ML, Carragher, B, Devkota, B, Downing, KH, Egelman, EH, Feng, Z, Frank, J, Grigorieff, N, Jiang, W, Ludtke, SJ, Medalia, O, Penczek, PA, Rosenthal, PB, Rossmann, MG, Schmid, MF, Schröder, GF, Steven, AC, Stokes, DL, Westbrook, JD, Wriggers, W, Yang, H, Young, J, Berman, HM, Chiu, W, Kleywegt, GJ, Lawson, CL. <em>Structure (London, England : 1993)</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/22045336/">Symmetry-free cryo-EM structures of the chaperonin TRiC along its ATPase-driven conformational cycle.</a> (2012) Cong, Y, Schröder, GF, Meyer, AS, Jakana, J, Ma, B, Dougherty, MT, Schmid, MF, Reissmann, S, Levitt, M, Ludtke, SL, Frydman, J, Chiu, W. <em>The EMBO journal</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/23055933/">A tail-like assembly at the portal vertex in intact herpes simplex type-1 virions.</a> (2012) Schmid, MF, Hecksel, CW, Rochat, RH, Bhella, D, Chiu, W, Rixon, FJ. <em>PLoS pathogens</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/22118658/">Filamentous, mixed micelles of triblock copolymers enhance tumor localization of indocyanine green in a murine xenograft model.</a> (2012) Kim, TH, Mount, CW, Dulken, BW, Ramos, J, Fu, CJ, Khant, HA, Chiu, W, Gombotz, WR, Pun, SH. <em>Molecular pharmaceutics</em>
-</li>
-<h2>2011</h2>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/21829169/">4.4 Å cryo-EM structure of an enveloped alphavirus Venezuelan equine encephalitis virus.</a> (2011) Zhang, R, Hryc, CF, Cong, Y, Liu, X, Jakana, J, Gorchakov, R, Baker, ML, Weaver, SC, Chiu, W. <em>The EMBO journal</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/21787787/">Crystal structure of the cytoplasmic N-terminal domain of subunit I, a homolog of subunit a, of V-ATPase.</a> (2011) Srinivasan, S, Vyas, NK, Baker, ML, Quiocho, FA. <em>Journal of molecular biology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/21752915/">The structure of barmah forest virus as revealed by cryo-electron microscopy at a 6-angstrom resolution has detailed transmembrane protein architecture and interactions.</a> (2011) Kostyuchenko, VA, Jakana, J, Liu, X, Haddow, AD, Aung, M, Weaver, SC, Chiu, W, Lok, SM. <em>Journal of virology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/21619932/">Practical performance evaluation of a 10k × 10k CCD for electron cryo-microscopy.</a> (2011) Bammes, BE, Rochat, RH, Jakana, J, Chiu, W. <em>Journal of structural biology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/21827954/">Flexible architecture of IP3R1 by Cryo-EM.</a> (2011) Ludtke, SJ, Tran, TP, Ngo, QT, Moiseenkova-Bell, VY, Chiu, W, Serysheva, II. <em>Structure (London, England : 1993)</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/21845206/">Near-atomic-resolution cryo-EM for molecular virology.</a> (2011) Hryc, CF, Chen, DH, Chiu, W. <em>Current opinion in virology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/21690369/">Structure of Trypanosoma brucei flagellum accounts for its bihelical motion.</a> (2011) Koyfman, AY, Schmid, MF, Gheiratmand, L, Fu, CJ, Khant, HA, Huang, D, He, CY, Chiu, W. <em>Proceedings of the National Academy of Sciences of the United States of America</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/21488620/">Effect of the peptide secondary structure on the peptide amphiphile supramolecular structure and interactions.</a> (2011) Missirlis, D, Chworos, A, Fu, CJ, Khant, HA, Krogstad, DV, Tirrell, M. <em>Langmuir : the ACS journal of surfaces and colloids</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/21565698/">Cryo-EM structure of a group II chaperonin in the prehydrolysis ATP-bound state leading to lid closure.</a> (2011) Zhang, J, Ma, B, DiMaio, F, Douglas, NR, Joachimiak, LA, Baker, D, Frydman, J, Levitt, M, Chiu, W. <em>Structure (London, England : 1993)</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/21296162/">Modeling protein structure at near atomic resolutions with Gorgon.</a> (2011) Baker, ML, Abeysinghe, SS, Schuh, S, Coleman, RA, Abrams, A, Marsh, MP, Hryc, CF, Ruths, T, Chiu, W, Ju, T. <em>Journal of structural biology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/21389566/">Partially polymerized liposomes: stable against leakage yet capable of instantaneous release for remote controlled drug delivery.</a> (2011) Qin, G, Li, Z, Xia, R, Li, F, O'Neill, BE, Goodwin, JT, Khant, HA, Chiu, W, Li, KC. <em>Nanotechnology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/21336265/">Interbilayer-crosslinked multilamellar vesicles as synthetic vaccines for potent humoral and cellular immune responses.</a> (2011) Moon, JJ, Suh, H, Bershteyn, A, Stephan, MT, Liu, H, Huang, B, Sohail, M, Luo, S, Um, SH, Khant, H, Goodwin, JT, Ramos, J, Chiu, W, Irvine, DJ. <em>Nature materials</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/21147776/">Electron cryomicroscopy structure of a membrane-anchored mitochondrial AAA protease.</a> (2011) Lee, S, Augustin, S, Tatsuta, T, Gerdes, F, Langer, T, Tsai, FT. <em>The Journal of biological chemistry</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/21106752/">Seeing the portal in herpes simplex virus type 1 B capsids.</a> (2011) Rochat, RH, Liu, X, Murata, K, Nagayama, K, Rixon, FJ, Chiu, W. <em>Journal of virology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/21220301/">Structural basis for scaffolding-mediated assembly and maturation of a dsDNA virus.</a> (2011) Chen, DH, Baker, ML, Hryc, CF, DiMaio, F, Jakana, J, Wu, W, Dougherty, M, Haase-Pettingell, C, Schmid, MF, Jiang, W, Baker, D, King, JA, Chiu, W. <em>Proceedings of the National Academy of Sciences of the United States of America</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/21241893/">Dual action of ATP hydrolysis couples lid closure to substrate release into the group II chaperonin chamber.</a> (2011) Douglas, NR, Reissmann, S, Zhang, J, Chen, B, Jakana, J, Kumar, R, Chiu, W, Frydman, J. <em>Cell</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/20935055/">EMDataBank.org: unified data resource for CryoEM.</a> (2011) Lawson, CL, Baker, ML, Best, C, Bi, C, Dougherty, M, Feng, P, van Ginkel, G, Devkota, B, Lagerstedt, I, Ludtke, SJ, Newman, RH, Oldfield, TJ, Rees, I, Sahni, G, Sala, R, Velankar, S, Warren, J, Westbrook, JD, Henrick, K, Kleywegt, GJ, Berman, HM, Chiu, W. <em>Nucleic acids research</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/21290288/">Functional and structural studies of TRP channels heterologously expressed in budding yeast.</a> (2011) Moiseenkova-Bell, V, Wensel, TG. <em>Advances in experimental medicine and biology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/20981710/">The group II chaperonin Mm-Cpn binds and refolds human γD crystallin.</a> (2011) Knee, KM, Goulet, DR, Zhang, J, Chen, B, Chiu, W, King, JA. <em>Protein science : a publication of the Protein Society</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/21501818/">Single-particle electron cryotomography (cryoET).</a> (2011) Schmid, MF. <em>Advances in protein chemistry and structural biology</em>
-</li>
-<h2>2010</h2>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/20933521/">Structure of a conserved retroviral RNA packaging element by NMR spectroscopy and cryo-electron tomography.</a> (2010) Miyazaki, Y, Irobalieva, RN, Tolbert, BS, Smalls-Mantey, A, Iyalla, K, Loeliger, K, D'Souza, V, Khant, H, Schmid, MF, Garcia, EL, Telesnitsky, A, Chiu, W, Summers, MF. <em>Journal of molecular biology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/20947014/">Workshop on molecular animation.</a> (2010) Bromberg, S, Chiu, W, Ferrin, TE. <em>Structure (London, England : 1993)</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/20709082/">Visualizing the structural changes of bacteriophage Epsilon15 and its Salmonella host during infection.</a> (2010) Chang, JT, Schmid, MF, Haase-Pettingell, C, Weigele, PR, King, JA, Chiu, W. <em>Journal of molecular biology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/20885381/">Cryo-EM of macromolecular assemblies at near-atomic resolution.</a> (2010) Baker, ML, Zhang, J, Ludtke, SJ, Chiu, W. <em>Nature protocols</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/20696391/">Zernike phase contrast cryo-electron microscopy and tomography for structure determination at nanometer and subnanometer resolutions.</a> (2010) Murata, K, Liu, X, Danev, R, Jakana, J, Schmid, MF, King, J, Nagayama, K, Chiu, W. <em>Structure (London, England : 1993)</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/20543830/">Structural changes in a marine podovirus associated with release of its genome into Prochlorococcus.</a> (2010) Liu, X, Zhang, Q, Murata, K, Baker, ML, Sullivan, MB, Fu, C, Dougherty, MT, Schmid, MF, Osburne, MS, Chisholm, SW, Chiu, W. <em>Nature structural & molecular biology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/20529921/">MOTIF-EM: an automated computational tool for identifying conserved regions in CryoEM structures.</a> (2010) Saha, M, Levitt, M, Chiu, W. <em>Bioinformatics (Oxford, England)</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/20338243/">Quantitative analysis of cryo-EM density map segmentation by watershed and scale-space filtering, and fitting of structures by alignment to regions.</a> (2010) Pintilie, GD, Zhang, J, Goddard, TD, Chiu, W, Gossard, DC. <em>Journal of structural biology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/20404203/">CryoEM structure of Hsp104 and its mechanistic implication for protein disaggregation.</a> (2010) Lee, S, Sielaff, B, Lee, J, Tsai, FT. <em>Proceedings of the National Academy of Sciences of the United States of America</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/20018243/">Electron microscopy, immunostaining, cytoskeleton visualization, in situ hybridization, and three-dimensional reconstruction of Xenopus oocytes.</a> (2010) Bilinski, SM, Jaglarz, MK, Dougherty, MT, Kloc, M. <em>Methods (San Diego, Calif.)</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/20194787/">4.0-A resolution cryo-EM structure of the mammalian chaperonin TRiC/CCT reveals its unique subunit arrangement.</a> (2010) Cong, Y, Baker, ML, Jakana, J, Woolford, D, Miller, EJ, Reissmann, S, Kumar, RN, Redding-Johanson, AM, Batth, TS, Mukhopadhyay, A, Ludtke, SJ, Frydman, J, Chiu, W. <em>Proceedings of the National Academy of Sciences of the United States of America</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/19903530/">Radiation damage effects at four specimen temperatures from 4 to 100 K.</a> (2010) Bammes, BE, Jakana, J, Schmid, MF, Chiu, W. <em>Journal of structural biology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/19698790/">Automated pipeline for atlas-based annotation of gene expression patterns: application to postnatal day 7 mouse brain.</a> (2010) Carson, J, Ju, T, Bello, M, Thaller, C, Warren, J, Kakadiaris, IA, Chiu, W, Eichele, G. <em>Methods (San Diego, Calif.)</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/20090755/">Mechanism of folding chamber closure in a group II chaperonin.</a> (2010) Zhang, J, Baker, ML, Schröder, GF, Douglas, NR, Reissmann, S, Jakana, J, Dougherty, M, Fu, CJ, Levitt, M, Ludtke, SJ, Frydman, J, Chiu, W. <em>Nature</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/20080547/">Model of human low-density lipoprotein and bound receptor based on cryoEM.</a> (2010) Ren, G, Rudenko, G, Ludtke, SJ, Deisenhofer, J, Chiu, W, Pownall, HJ. <em>Proceedings of the National Academy of Sciences of the United States of America</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/20356853/">Automated specimen search in cryo-TEM observation with DIFF-defocus imaging.</a> (2010) Nakamura, N, Shimizu, Y, Shinkawa, T, Nakata, M, Bammes, B, Zhang, J, Chiu, W. <em>Journal of electron microscopy</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/20487508/">Tracing conformational changes in proteins.</a> (2010) Haspel, N, Moll, M, Baker, ML, Chiu, W, Kavraki, LE. <em>BMC structural biology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/20397068/">Rotavirus cell entry.</a> (2010) Baker, M, Prasad, BV. <em>Current topics in microbiology and immunology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/21124809/">Semi-isometric registration of line features for flexible fitting of protein structures.</a> (2010) Abeysinghe, S, Baker, ML, Chiu, W, Ju, T. <em>Computer graphics forum : journal of the European Association for Computer Graphics</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/20888467/">Analyses of subnanometer resolution cryo-EM density maps.</a> (2010) Baker, ML, Baker, MR, Hryc, CF, Dimaio, F. <em>Methods in enzymology</em>
-</li>
-<h2>2009</h2>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/19596339/">Refinement of protein structures into low-resolution density maps using rosetta.</a> (2009) DiMaio, F, Tyka, MD, Baker, ML, Chiu, W, Baker, D. <em>Journal of molecular biology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/19580754/">Characterization of antibiotic peptide pores using cryo-EM and comparison to neutron scattering.</a> (2009) Han, M, Mei, Y, Khant, H, Ludtke, SJ. <em>Biophysical journal</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/19446530/">Structural mechanism of SDS-induced enzyme activity of scorpion hemocyanin revealed by electron cryomicroscopy.</a> (2009) Cong, Y, Zhang, Q, Woolford, D, Schweikardt, T, Khant, H, Dougherty, M, Ludtke, SJ, Chiu, W, Decker, H. <em>Structure (London, England : 1993)</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/20556220/">Identifying Components in 3D Density Maps of Protein Nanomachines by Multi-scale Segmentation.</a> (2009) Pintilie, G, Zhang, J, Chiu, W, Gossard, D. <em>IEEE/NIH Life Science Systems and Applications Workshop. IEEE/NIH Life Science Systems and Applications Workshop</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/19264960/">Interprotofilament interactions between Alzheimer's Abeta1-42 peptides in amyloid fibrils revealed by cryoEM.</a> (2009) Zhang, R, Hu, X, Khant, H, Ludtke, SJ, Chiu, W, Schmid, MF, Frieden, C, Lee, JM. <em>Proceedings of the National Academy of Sciences of the United States of America</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/19237588/">Hot on the trail of TRP channel structure.</a> (2009) Moiseenkova-Bell, VY, Wensel, TG. <em>The Journal of general physiology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/19250460/">Estimating contrast transfer function and associated parameters by constrained non-linear optimization.</a> (2009) Yang, C, Jiang, W, Chen, DH, Adiga, U, Ng, EG, Chiu, W. <em>Journal of microscopy</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/19191587 /">Disruption of human plasma high-density lipoproteins by streptococcal serum opacity factor requires labile apolipoprotein A-I.</a> (2009) Han, M, Gillard, BK, Courtney, HS, Ward, K, Rosales, C, Khant, H, Ludtke, SJ, Pownall, HJ. <em>Biochemistry</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/18927076/">Ryanodine receptor structure: progress and challenges.</a> (2009) Hamilton, SL, Serysheva, II. <em>The Journal of biological chemistry</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/19036817/">Rotavirus architecture at subnanometer resolution.</a> (2009) Li, Z, Baker, ML, Jiang, W, Estes, MK, Prasad, BV. <em>Journal of virology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/18926912/">JADAS: a customizable automated data acquisition system and its application to ice-embedded single particles.</a> (2009) Zhang, J, Nakamura, N, Shimizu, Y, Liang, N, Liu, X, Jakana, J, Marsh, MP, Booth, CR, Shinkawa, T, Nakata, M, Chiu, W. <em>Journal of structural biology</em>
-</li>
-<h2>2008</h2>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/18987632/">X-ray structure of NS1 from a highly pathogenic H5N1 influenza virus.</a> (2008) Bornholdt, ZA, Prasad, BV. <em>Nature</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/18841890/">Redox-triggered contents release from liposomes.</a> (2008) Ong, W, Yang, Y, Cruciano, AC, McCarley, RL. <em>Journal of the American Chemical Society</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/18662685/">Mouse early oocytes are transiently polar: three-dimensional and ultrastructural analysis.</a> (2008) Kloc, M, Jaglarz, M, Dougherty, M, Stewart, MD, Nel-Themaat, L, Bilinski, S. <em>Experimental cell research</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/18588898/">Location and flexibility of the unique C-terminal tail of Aquifex aeolicus co-chaperonin protein 10 as derived by cryo-electron microscopy and biophysical techniques.</a> (2008) Chen, DH, Luke, K, Zhang, J, Chiu, W, Wittung-Stafshede, P. <em>Journal of molecular biology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/18456304/">Signal transducing membrane complexes of photoreceptor outer segments.</a> (2008) Wensel, TG. <em>Vision research</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/18621707/">Subnanometer-resolution electron cryomicroscopy-based domain models for the cytoplasmic region of skeletal muscle RyR channel.</a> (2008) Serysheva, II, Ludtke, SJ, Baker, ML, Cong, Y, Topf, M, Eramian, D, Sali, A, Hamilton, SL, Chiu, W. <em>Proceedings of the National Academy of Sciences of the United States of America</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/18543914/">Remotely triggered liposome release by near-infrared light absorption via hollow gold nanoshells.</a> (2008) Wu, G, Mikhailovsky, A, Khant, HA, Fu, C, Chiu, W, Zasadzinski, JA. <em>Journal of the American Chemical Society</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/18514542/">Achievable resolution from images of biological specimens acquired from a 4k x 4k CCD camera in a 300-kV electron cryomicroscope.</a> (2008) Chen, DH, Jakana, J, Liu, X, Schmid, MF, Chiu, W. <em>Journal of structural biology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/18536725/">Mechanism of lid closure in the eukaryotic chaperonin TRiC/CCT.</a> (2008) Booth, CR, Meyer, AS, Cong, Y, Topf, M, Sali, A, Ludtke, SJ, Chiu, W, Frydman, J. <em>Nature structural & molecular biology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/18490661/">Structure of TRPV1 channel revealed by electron cryomicroscopy.</a> (2008) Moiseenkova-Bell, VY, Stanciu, LA, Serysheva, II, Tobe, BJ, Wensel, TG. <em>Proceedings of the National Academy of Sciences of the United States of America</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/18322207/">Functional maturation of the human antibody response to rotavirus.</a> (2008) Kallewaard, NL, McKinney, BA, Gu, Y, Chen, A, Prasad, BV, Crowe, JE. <em>Journal of immunology (Baltimore, Md. : 1950)</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/18299206/">Methods for aligning and for averaging 3D volumes with missing data.</a> (2008) Schmid, MF, Booth, CR. <em>Journal of structural biology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/18334219 /">De novo backbone trace of GroEL from single particle electron cryomicroscopy.</a> (2008) Ludtke, SJ, Baker, ML, Chen, DH, Song, JL, Chuang, DT, Chiu, W. <em>Structure (London, England : 1993)</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/18305544/">Backbone structure of the infectious epsilon15 virus capsid revealed by electron cryomicroscopy.</a> (2008) Jiang, W, Baker, ML, Jakana, J, Weigele, PR, King, J, Chiu, W. <em>Nature</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/18039465/">Cryo-electron microscopy of coagulation Factor VIII bound to lipid nanotubes.</a> (2008) Parmenter, CD, Cane, MC, Zhang, R, Stoilova-McPhie, S. <em>Biochemical and biophysical research communications</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/18275820/">Protein structure fitting and refinement guided by cryo-EM density.</a> (2008) Topf, M, Lasker, K, Webb, B, Wolfson, H, Chiu, W, Sali, A. <em>Structure (London, England : 1993)</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/18022194/">Crystallographic conformers of actin in a biologically active bundle of filaments.</a> (2008) Cong, Y, Topf, M, Sali, A, Matsudaira, P, Dougherty, M, Chiu, W, Schmid, MF. <em>Journal of molecular biology</em>
-</li>
-<h2>2007</h2>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/18158904/">Ribosome binding of a single copy of the SecY complex: implications for protein translocation.</a> (2007) Ménétret, JF, Schaletzky, J, Clemons, WM, Osborne, AR, Skånland, SS, Denison, C, Gygi, SP, Kirkpatrick, DS, Park, E, Ludtke, SJ, Rapoport, TA, Akey, CW. <em>Molecular cell</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/18045333/">Modular software platform for low-dose electron microscopy and tomography.</a> (2007) Marsh, MP, Chang, JT, Booth, CR, Liang, NL, Schmid, MF, Chiu, W. <em>Journal of microscopy</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/17698370/">Averaging tens to hundreds of icosahedral particle images to resolve protein secondary structure elements using a Multi-Path Simulated Annealing optimization algorithm.</a> (2007) Liu, X, Jiang, W, Jakana, J, Chiu, W. <em>Journal of structural biology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/17959374/">Biophysical methods: structure, dynamics and gorgeous images.</a> (2007) Chiu, W, Moffat, K. <em>Current opinion in structural biology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/17383677 /">Genome sequence, structural proteins, and capsid organization of the cyanophage Syn5: a "horned" bacteriophage of marine synechococcus.</a> (2007) Pope, WH, Weigele, PR, Chang, J, Pedulla, ML, Ford, ME, Houtz, JM, Jiang, W, Chiu, W, Hatfull, GF, Hendrix, RW, King, J. <em>Journal of molecular biology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/17376434/">Organization of cytokeratin cytoskeleton and germ plasm in the vegetal cortex of Xenopus laevis oocytes depends on coding and non-coding RNAs: three-dimensional and ultrastructural analysis.</a> (2007) Kloc, M, Bilinski, S, Dougherty, MT. <em>Experimental cell research</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/17460696/">Essential function of the built-in lid in the allosteric regulation of eukaryotic and archaeal chaperonins.</a> (2007) Reissmann, S, Parnot, C, Booth, CR, Chiu, W, Frydman, J. <em>Nature structural & molecular biology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/18449328/">Computing a family of skeletons of volumetric models for shape description.</a> (2007) Ju, T, Baker, ML, Chiu, W. <em>Computer aided design</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/17518066/">Learning-based segmentation framework for tissue images containing gene expression data.</a> (2007) Bello, M, Ju, T, Carson, J, Warren, J, Chiu, W, Kakadiaris, IA. <em>IEEE transactions on medical imaging</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/17395453 /">DNA packaging and delivery machines in tailed bacteriophages.</a> (2007) Johnson, JE, Chiu, W. <em>Current opinion in structural biology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/17151101/">Electron cryotomography reveals the portal in the herpesvirus capsid.</a> (2007) Chang, JT, Schmid, MF, Rixon, FJ, Chiu, W. <em>Journal of virology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/17244533/">Visualizing the ATPase cycle in a protein disaggregating machine: structural basis for substrate binding by ClpB.</a> (2007) Lee, S, Choi, JM, Tsai, FT. <em>Molecular cell</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/16931051/">SPARX, a new environment for Cryo-EM image processing.</a> (2007) Hohn, M, Tang, G, Goodyear, G, Baldwin, PR, Huang, Z, Penczek, PA, Yang, C, Glaeser, RM, Adams, PD, Ludtke, SJ. <em>Journal of structural biology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/17327167/">Single-particle electron cryomicroscopy of the ion channels in the excitation-contraction coupling junction.</a> (2007) Serysheva, II, Chiu, W, Ludtke, SJ. <em>Methods in cell biology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/17656759/">Cryoelectron microscopy of icosahedral virus particles.</a> (2007) Jiang, W, Chiu, W. <em>Methods in molecular biology (Clifton, N.J.)</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/17223528/">Identification of secondary structure elements in intermediate-resolution density maps.</a> (2007) Baker, ML, Ju, T, Chiu, W. <em>Structure (London, England : 1993)</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/16859925/">EMAN2: an extensible image processing suite for electron microscopy.</a> (2007) Tang, G, Peng, L, Baldwin, PR, Mann, DS, Jiang, W, Rees, I, Ludtke, SJ. <em>Journal of structural biology</em>
-</li>
-<h2>2006</h2>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/16987967/">Cryoelectron microscopy of protein IX-modified adenoviruses suggests a new position for the C terminus of protein IX.</a> (2006) Marsh, MP, Campos, SK, Baker, ML, Chen, CY, Chiu, W, Barry, MA. <em>Journal of virology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/16908194/">Automated segmentation of molecular subunits in electron cryomicroscopy density maps.</a> (2006) Baker, ML, Yu, Z, Chiu, W, Bajaj, C. <em>Journal of structural biology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/17028023/">Structure of Halothiobacillus neapolitanus carboxysomes by cryo-electron tomography.</a> (2006) Schmid, MF, Paredes, AM, Khant, HA, Soyer, F, Aldrich, HC, Chiu, W, Shively, JM. <em>Journal of molecular biology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/17067819/">Assessing the capabilities of a 4kx4k CCD camera for electron cryo-microscopy at 300kV.</a> (2006) Booth, CR, Jakana, J, Chiu, W. <em>Journal of structural biology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/17098196/">An expanded conformation of single-ring GroEL-GroES complex encapsulates an 86 kDa substrate.</a> (2006) Chen, DH, Song, JL, Chuang, DT, Chiu, W, Ludtke, SJ. <em>Structure (London, England : 1993)</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/16928740/">Cryoelectron microscopy structures of rotavirus NSP2-NSP5 and NSP2-RNA complexes: implications for genome replication.</a> (2006) Jiang, X, Jayaram, H, Kumar, M, Ludtke, SJ, Estes, MK, Prasad, BV. <em>Journal of virology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/17069457/">Ab initio modeling of the herpesvirus VP26 core domain assessed by CryoEM density.</a> (2006) Baker, ML, Jiang, W, Wedemeyer, WJ, Rixon, FJ, Baker, D, Chiu, W. <em>PLoS computational biology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/16580732/">3D volume reconstruction of a mouse brain from histological sections using warp filtering.</a> (2006) Ju, T, Warren, J, Carson, J, Bello, M, Kakadiaris, I, Chiu, W, Thaller, C, Eichele, G. <em>Journal of neuroscience methods</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/16955948/">Outcome of a workshop on archiving structural models of biological macromolecules.</a> (2006) Berman, HM, Burley, SK, Chiu, W, Sali, A, Adzhubei, A, Bourne, PE, Bryant, SH, Dunbrack, RL, Fidelis, K, Frank, J, Godzik, A, Henrick, K, Joachimiak, A, Heymann, B, Jones, D, Markley, JL, Moult, J, Montelione, GT, Orengo, C, Rossmann, MG, Rost, B, Saibil, H, Schwede, T, Standley, DM, Westbrook, JD. <em>Structure (London, England : 1993)</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/16730179/">Cryo-EM asymmetric reconstruction of bacteriophage P22 reveals organization of its DNA packaging and infecting machinery.</a> (2006) Chang, J, Weigele, P, King, J, Chiu, W, Jiang, W. <em>Structure (London, England : 1993)</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/16490207/">Refinement of protein structures by iterative comparative modeling and CryoEM density fitting.</a> (2006) Topf, M, Baker, ML, Marti-Renom, MA, Chiu, W, Sali, A. <em>Journal of molecular biology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/16491093/">Close membrane-membrane proximity induced by Ca(2+)-dependent multivalent binding of synaptotagmin-1 to phospholipids.</a> (2006) Araç, D, Chen, X, Khant, HA, Ubach, J, Ludtke, SJ, Kikkawa, M, Johnson, AE, Chiu, W, Südhof, TC, Rizo, J. <em>Nature structural & molecular biology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/16459078 /">Structural biology of cellular machines.</a> (2006) Chiu, W, Baker, ML, Almo, SC. <em>Trends in cell biology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/16452981/">Structure of epsilon15 bacteriophage reveals genome organization and DNA packaging/injection apparatus.</a> (2006) Jiang, W, Chang, J, Jakana, J, Weigele, P, King, J, Chiu, W. <em>Nature</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/16415027/">High-resolution molecular and antigen structure of the VP8* core of a sialic acid-independent human rotavirus strain.</a> (2006) Monnier, N, Higo-Moriguchi, K, Sun, ZY, Prasad, BV, Taniguchi, K, Dormitzer, PR. <em>Journal of virology</em>
-</li>
-<h2>2005</h2>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/16364911/">Structural analysis of the anaphase-promoting complex reveals multiple active sites and insights into polyubiquitylation.</a> (2005) Passmore, LA, Booth, CR, Vénien-Bryan, C, Ludtke, SJ, Fioretto, C, Johnson, LN, Chiu, W, Barford, D. <em>Molecular cell</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/16282496/">Common ancestry of herpesviruses and tailed DNA bacteriophages.</a> (2005) Baker, ML, Jiang, W, Rixon, FJ, Chiu, W. <em>Journal of virology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/16216269/">Mutational analysis of the SARS virus Nsp15 endoribonuclease: identification of residues affecting hexamer formation.</a> (2005) Guarino, LA, Bhardwaj, K, Dong, W, Sun, J, Holzenburg, A, Kao, C. <em>Journal of molecular biology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/16244660/">ERj1p uses a universal ribosomal adaptor site to coordinate the 80S ribosome at the membrane.</a> (2005) Blau, M, Mullapudi, S, Becker, T, Dudek, J, Zimmermann, R, Penczek, PA, Beckmann, R. <em>Nature structural & molecular biology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/16271896/">A structure of the human apoptosome at 12.8 A resolution provides insights into this cell death platform.</a> (2005) Yu, X, Acehan, D, Ménétret, JF, Booth, CR, Ludtke, SJ, Riedl, SJ, Shi, Y, Wang, X, Akey, CW. <em>Structure (London, England : 1993)</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/16236526 /">Fast rotational matching of single-particle images.</a> (2005) Cong, Y, Jiang, W, Birmanns, S, Zhou, ZH, Chiu, W, Wriggers, W. <em>Journal of structural biology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/16140524/">Electron cryomicroscopy of single particles at subnanometer resolution.</a> (2005) Jiang, W, Ludtke, SJ. <em>Current opinion in structural biology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/16184189/">A digital atlas to characterize the mouse brain transcriptome.</a> (2005) Carson, JP, Ju, T, Lu, HC, Thaller, C, Xu, M, Pallas, SL, Crair, MC, Warren, J, Chiu, W, Eichele, G. <em>PLoS computational biology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/16075070/">Superparamagnetic gadonanotubes are high-performance MRI contrast agents.</a> (2005) Sitharaman, B, Kissell, KR, Hartman, KB, Tran, LA, Baikalov, A, Rusakova, I, Sun, Y, Khant, HA, Ludtke, SJ, Chiu, W, Laus, S, Tóth, E, Helm, L, Merbach, AE, Wilson, LJ. <em>Chemical communications (Cambridge, England)</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/16084392/">The pore structure of the closed RyR1 channel.</a> (2005) Ludtke, SJ, Serysheva, II, Hamilton, SL, Chiu, W. <em>Structure (London, England : 1993)</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/15811380/">Architecture of the ribosome-channel complex derived from native membranes.</a> (2005) Ménétret, JF, Hegde, RS, Heinrich, SU, Chandramouli, P, Ludtke, SJ, Rapoport, TA, Akey, CW. <em>Journal of molecular biology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/15766537/">Electron cryomicroscopy of biological machines at subnanometer resolution.</a> (2005) Chiu, W, Baker, ML, Jiang, W, Dougherty, M, Schmid, MF. <em>Structure (London, England : 1993)</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/15681235/">Structural characterization of components of protein assemblies by comparative modeling and electron cryo-microscopy.</a> (2005) Topf, M, Baker, ML, John, B, Chiu, W, Sali, A. <em>Journal of structural biology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/15581887/">Structure of Ca2+ release channel at 14 A resolution.</a> (2005) Serysheva, II, Hamilton, SL, Chiu, W, Ludtke, SJ. <em>Journal of molecular biology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/15744663/">Delivery of germinal granules and localized RNAs via the messenger transport organizer pathway to the vegetal cortex of Xenopus oocytes occurs through directional expansion of the mitochondrial cloud.</a> (2005) Wilk, K, Bilinski, S, Dougherty, MT, Kloc, M. <em>The International journal of developmental biology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/16358426/">Structural biology of old world and new world alphaviruses.</a> (2005) Paredes, A, Weaver, S, Watowich, S, Chiu, W. <em>Archives of virology. Supplementum</em>
-</li>
-<h2>2004</h2>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/15343340/">Structure of the acrosomal bundle.</a> (2004) Schmid, MF, Sherman, MB, Matsudaira, P, Chiu, W. <em>Nature</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/15329727/">Structural rearrangements in the membrane penetration protein of a non-enveloped virus.</a> (2004) Dormitzer, PR, Nason, EB, Prasad, BV, Harrison, SC. <em>Nature</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/15173184/">How a G protein binds a membrane.</a> (2004) Zhang, Z, Melia, TJ, He, F, Yuan, C, McGough, A, Schmid, MF, Wensel, TG. <em>The Journal of biological chemistry</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/15272307/">Structure of the bifunctional and Golgi-associated formiminotransferase cyclodeaminase octamer.</a> (2004) Mao, Y, Vyas, NK, Vyas, MN, Chen, DH, Ludtke, SJ, Chiu, W, Quiocho, FA. <em>The EMBO journal</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/15193640/">A 9 angstroms single particle reconstruction from CCD captured images on a 200 kV electron cryomicroscope.</a> (2004) Booth, CR, Jiang, W, Baker, ML, Zhou, ZH, Ludtke, SJ, Chiu, W. <em>Journal of structural biology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/15254177/">Interactions between the inner and outer capsids of bluetongue virus.</a> (2004) Nason, EL, Rothagel, R, Mukherjee, SK, Kar, AK, Forzan, M, Prasad, BV, Roy, P. <em>Journal of virology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/15166242/">Mitochondrial ATP synthasome: three-dimensional structure by electron microscopy of the ATP synthase in complex formation with carriers for Pi and ADP/ATP.</a> (2004) Chen, C, Ko, Y, Delannoy, M, Ludtke, SJ, Chiu, W, Pedersen, PL. <em>The Journal of biological chemistry</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/15242589/">Seeing GroEL at 6 A resolution by single particle electron cryomicroscopy.</a> (2004) Ludtke, SJ, Chen, DH, Song, JL, Chuang, DT, Chiu, W. <em>Structure (London, England : 1993)</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/15207623/">Conformational changes in Sindbis virions resulting from exposure to low pH and interactions with cells suggest that cell penetration may occur at the cell surface in the absence of membrane fusion.</a> (2004) Paredes, AM, Ferreira, D, Horton, M, Saad, A, Tsuruta, H, Johnston, R, Klimstra, W, Ryman, K, Hernandez, R, Chiu, W, Brown, DT. <em>Virology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/14962379/">Experimental verification of conformational variation of human fatty acid synthase as predicted by normal mode analysis.</a> (2004) Brink, J, Ludtke, SJ, Kong, Y, Wakil, SJ, Ma, J, Chiu, W. <em>Structure (London, England : 1993)</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/14729477/">Formation, architecture and polarity of female germline cyst in Xenopus.</a> (2004) Kloc, M, Bilinski, S, Dougherty, MT, Brey, EM, Etkin, LD. <em>Developmental biology</em>
-</li>
-<h2>2001</h2>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/11718559/">A 11.5 A single particle reconstruction of GroEL using EMAN.</a> (2001) Ludtke, SJ, Jakana, J, Song, JL, Chuang, DT, Chiu, W. <em>Journal of molecular biology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/14643222/">Cross-correlation and merging of crystallographic reflections derived from cryoelectron micrographs of 3D crystals: application to the Limulus acrosomal bundle.</a> (2001) Schmid, MF. <em>Journal of structural biology</em>
-</li>
-<li>
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/15065668/">Automatic particle selection: results of a comparative study.</a> (2001) Zhu, Y, Carragher, B, Glaeser, RM, Fellmann, D, Bajaj, C, Bern, M, Mouche, F, de Haas, F, Hall, RJ, Kriegman, DJ, Ludtke, SJ, Mallick, SP, Penczek, PA, Roseman, AM, Sigworth, FJ, Volkmann, N, Potter, CS. <em>Journal of structural biology</em>
-</li>
+    <tr>
+        <td colspan=2>
+            <br>
+        </td>
+    </tr>
+
+    <form name="myform" action="http://ncmi.bcm.edu/ncmi/publication/journalcover/index_html" method="post">
+                    <tr>
+                <td align="center" width=30%>
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title></title>
+</head>
+
+<body>
+    <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_88/cover2"><img alt="" border="0" height="199" src=
+    "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_88/cover" title="" width="150"></a>
+
+    <table>
+        <tr>
+            <td valign="top">
+                February 2011<br>
+                <br>
+                <strong>Journal of Virology</strong> <a href="http://www.ncbi.nlm.nih.gov/pubmed/21106752">View Article</a><br>
+                Seeing the Portal in Herpes Simplex Virus Type 1 B Capsids<br>
+                <br>
+                Rochat, R. H.; Liu, X.; Murata, K.; Nagayama, K.; Rixon, F. J.; Chiu, W.<br>
+                <br>
+                Journal of Virology , Volume 85 (4): 1871<br>
+                American Society For Microbiology – Feb 15, 2011<br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_88/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_88">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_89/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_89/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                December 2010<br>
+                <br>
+                <strong>Journal of Molecular Biology</strong> <a href="http://www.ncbi.nlm.nih.gov/pubmed/20933521">View Article</a><br>
+                Structure of a Conserved Retroviral RNA Packaging Element by NMR Spectroscopy and Cryo-Electron Tomography<br>
+                <br>
+                Yasuyuki Miyazaki, Rossitza N. Irobalieva, Blanton S. Tolbert, Adjoa Smalls-Mantey, Kilali Iyalla, Kelsey Loeliger, Victoria D’Souza, Htet Khant, Michael F. Schmid, Eric L. Garcia,
+                Alice Telesnitsky, Wah Chiu, Michael F. Summers<br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_89/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_89">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_91/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_91/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                October 2010<br>
+                <br>
+                <strong>NIAID Sponsered Workshop</strong><br>
+                Recent Advances and Future Prospects for Visualizing Macromolecular Complexes and Cellular Structures<br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_91/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_91">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_87/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_87/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                October 2010<br>
+                <br>
+                <strong>Journal of Molecular Biology</strong> <a href="http://www.ncbi.nlm.nih.gov/pubmed/20709082">View Article</a><br>
+                Visualizing the Structural Changes of Bacteriophage Epsilon15 and Its Salmonella Host during Infection<br>
+                <br>
+                Juan T. Chang, Michael F. Schmid, Cameron Haase-Pettingell, Peter R. Weigele, Jonathan A. King, Wah Chiu<br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_87/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_87">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_90/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_90/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                July 2010<br>
+                <br>
+                <strong>Nature Structural &amp; Molecular Biology</strong> <a href="http://www.ncbi.nlm.nih.gov/pubmed/20543830">View Article</a><br>
+                Structural changes in a marine podovirus associated with release of its genome into Prochlorococcus<br>
+                <br>
+                Xiangan Liu, Qinfen Zhang, Kazuyoshi Murata, Matthew L Baker, Matthew B Sullivan, Caroline Fu, Matthew T Dougherty, Michael F Schmid, Marcia S Osburne, Sallie W Chisholm &amp; Wah
+                Chiu<br>
+                <br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_90/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_90">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_83/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_83/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                January 2008<br>
+                <br>
+                <strong>Physics Today</strong> <a href="http://ncmi.bcm.edu/ncmi/publication/magazine_articles/glaeser.pdf">View Article</a><br>
+                "Cryo-Electron Microscopy of Biological Nanostructures", Physics Today, January 2008, Volume 62, Issue 1, pp. 48-54.<br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_83/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_83">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_85/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_85/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                October 2007<br>
+                <br>
+                <strong>Journal of Structural Biology</strong> <a href=
+                "http://www.sciencedirect.com/science?_ob=ArticleURL&amp;_udi=B6WM5-4P4FV4M-1&amp;_user=5674961&amp;_rdoc=1&amp;_fmt=&amp;_orig=search&amp;_sort=d&amp;view=c&amp;_acct=C000003838&amp;_version=1&amp;_urlVersion=0&amp;_userid=5674961&amp;md5=f93d928e205b6a60932a7d5ce08d90f6">
+                View Article</a><br>
+                Averaging tens to hundreds of icosahedral particle images to resolve protein secondary structure elements using a Multi-Path Simulated Annealing optimization algorithm<br>
+                <br>
+                J Struct Biol. 2007 Oct;160(1):11-27<br>
+                <br>
+                Xiangan Liu, Wen Jiang, Joanita Jakana and Wah Chiu<br>
+                <br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_85/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_85">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_80/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_80/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                February 2007<br>
+                <br>
+                <strong>J. Mol. Biol.</strong> <a href=
+                "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&amp;cmd=Retrieve&amp;dopt=AbstractPlus&amp;list_uids=17383677&amp;query_hl=2&amp;itool=pubmed_docsum">View Article</a><br>
+                Genome sequence, structural proteins, and capsid organization of the cyanophage syn5: a "horned" bacteriophage of marine synechococcus.<br>
+                <br>
+                Pope WH, Weigele PR, Chang J, Pedulla ML, Ford ME, Houtz JM, Jiang W, Chiu W, Hatfull GF, Hendrix RW, King J.<br>
+                <br>
+                J Mol Biol. 2007 May 11;368(4):966-81. Epub 2007 Feb 22.Click here to read<br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_80/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_80">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_79/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_79/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                February 2007<br>
+                <br>
+                <strong>J. Virology</strong> <a href="http://jvi.asm.org/cgi/content/short/81/4/2065">View Article</a><br>
+                Electron Cryotomography Reveals the Portal in the Herpesvirus Capsid<br>
+                <br>
+                Juan T. Chang, Michael F. Schmid, Frazer J. Rixon, and Wah Chiu<br>
+                <br>
+                Journal of Virology, February 2007, p. 2065-2068, Vol. 81, No. 4<br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_79/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_79">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_86/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_86/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                January 2007<br>
+                <br>
+                <strong>Journal of Structural Biology</strong><br>
+                Cover image only.<br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_86/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_86">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_77/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_77/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                July 2006<br>
+                <br>
+                <strong>JEOL news</strong><br>
+                Visualization of Biological Nano-Machines at Subnanometer Resolutions<br>
+                <br>
+                W. Chiu, D. Chen, J. Jakana, J. Chang, W. Jiang, S. Ludtke, and M. Baker<br>
+                <br>
+                JEOL News, Vol. 41 No. 1, pp. 12 - 17<br>
+                <br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_77/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_77">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_75/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_75/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                March 2006<br>
+                <br>
+                <strong>Nature Structural &amp; Molecular Biology</strong> <a href=
+                "http://http://www.nature.com/nsmb/journal/v13/n3/abs/nsmb1056.html;jsessionid=72BD1ABC9B12890C5F2F876FAB8B0114">View Article</a><br>
+                Arac D, Chen X, Khant HA, Ubach J, Ludtke SJ, Kikkawa M, Johnson AE, Chiu W, Sudhof TC, Rizo J.<br>
+                <br>
+                Close membrane-membrane proximity induced by Ca(2+)-dependent multivalent binding of synaptotagmin-1 to phospholipids.<br>
+                <br>
+                Nat Struct Mol Biol. 2006 Mar;13(3):209-17. Epub 2006 Feb 19.<br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_75/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_75">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_68/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_68/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                February 2006<br>
+                <br>
+                <strong>Nature</strong> <a href=
+                "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=16452981&amp;query_hl=2&amp;itool=pubmed_docsum">View Article</a><br>
+                Jiang W, Chang J, Jakana J, Weigele P, King J, Chiu W.<br>
+                <br>
+                Structure of epsilon15 bacteriophage reveals genome organization and DNA packaging/injection apparatus.<br>
+                Nature. 2006 Feb 2;439(7076):612-6.<br>
+                <br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_68/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_68">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_78/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_78/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                September 2005<br>
+                <br>
+                <strong>PLos Computational Biology</strong> <a href="http://www.ploscompbiol.org">View Article</a><br>
+                J. Carson, T. Ju, H. Lu, C. Thaller, M. Xu, S. Pallas, M. Crair, J. Warren, W. Chiu, G. Eichele<br>
+                <br>
+                A Digital Atlas to Characterize the Mouse Brain Transcriptome<br>
+                <br>
+                PLoS Computational Biology, September 2005, Volume 1, Issue 4, pp. 289-296<br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_78/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_78">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_67/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_67/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                August 2004<br>
+                <br>
+                <strong>NCRR Reporter, Summer 2004</strong> <a href="http://www.ncrr.nih.gov/newspub/oct04rpt/Reporter_Summer2004_online.pdf">View Article</a><br>
+                <a href="http://ncmi.bcm.tmc.edu/ncmi/publication/magazine_articles/NCRRreport">A Closer Look at the Bigger Picture</a><br>
+                Integrated technologies examine the middle ground between atomic details and whole cells.<br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_67/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_67">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_66/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_66/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                August 2004<br>
+                <br>
+                <strong>Journal of Structural Biology</strong> <a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=15193640">View
+                Article</a><br>
+                Booth, C.R., Jiang W., Baker M.L., Zhou Z.H., Ludtke S.J., Chiu W.,<br>
+                A 9 � Single Particle Reconstruction From CCD Captured Images On A 200<br>
+                kV Electron Cryomicroscope.<br>
+                Journal Of Structural Biology, 147 (2004) 116,127<br>
+                <br>
+                Sub-nanometer resolution structure determination is becoming a common<br>
+                practice in electron cryomicroscopy of macromolecular assemblies. The<br>
+                data for these studies have until now been collected on photographic<br>
+                film. Using cytoplasmic polyhedrosis virus (CPV), a previously<br>
+                determined structure, as a test specimen, we show the feasibility of<br>
+                obtaining a 9 � structure from images acquired from a 4 k � 4 k Gatan<br>
+                CCD on a 200 kV electron cryomicroscope. The match of the small alpha,<br>
+                Greek-helices in the protein components of the CPV with the previous<br>
+                structure of the same virus validates the suitability of this type of<br>
+                camera as the recording media targeted for single particle<br>
+                reconstructions at sub-nanometer resolution.<br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_66/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_66">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_64/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_64/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                February 2004<br>
+                <br>
+                <strong>Developmental Biology</strong> <a href=
+                "http://www.sciencedirect.com/science?_ob=ArticleURL&amp;_udi=B6WDG-4B2CHT1-8&amp;_user=29261&amp;_handle=W-WA-A-A-AY-MsSAYZA-UUA-AUDYUBBZVC-WDUUBUWBV-AY-U&amp;_fmt=full&amp;_coverDate=02%2F01%2F2004&amp;_rdoc=4&amp;_orig=browse&amp;_srch=%23toc%236766%232004%23997339998%23476280!&amp;_cdi=6766&amp;view=c&amp;_acct=C000003838&amp;_version=1&amp;_urlVersion=0&amp;_userid=29261&amp;md5=549a2bd793d97f912c86cd1b8e6cf312">
+                View Article</a><br>
+                Malgorzata Kloca, Szczepan Bilinskib, Matthew T. Doughertyc, Eric M. Breyd, e and Laurence D. Etkin, Developmental Biology 266 (2004) 43� 61<br>
+                <br>
+                Little is known about the formation of germline cyst and the differentiation of oocyte within the cyst in vertebrates. In the majority of invertebrates in the initial stages of
+                gametogenesis, male and female germ cells develop in full synchrony as a syncytia of interconnected cells called germline cysts (clusters, nests). Using electron microscopy,
+                immunostaining and three-dimensional reconstruction, we were able to elucidate the process of cyst formation in the developing ovary of the vertebrate Xenopus laevis. We found that
+                the germline cyst in Xenopus contains 16 cells that are similar in general architecture and molecular composition to the cyst in Drosophila. Nest cells are connected by cytoplasmic
+                bridges that contain ring canal-like structures. The nest cells contain a structure similar to the Drosophila fusome that that is probably involved in anchoring of the centrioles and
+                organization of the primary mitochondrial cloud (PMC) around the centriole. We also find that in contrast to other organisms, in Xenopus, apoptosis is a rare event within the
+                developing ovary. Our studies indicate that the processes responsible for the formation of female germline cysts and the establishment of germ cell polarity are highly conserved
+                between invertebrates and vertebrates. The dissimilarities between Drosophila and Xenopus and the uniqueness of each system probably evolved through modifications of the same
+                fundamental design of the germline cyst.<br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_64/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_64">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_63/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_63/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                June 2003<br>
+                <br>
+                <strong>Structure</strong> <a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=12791254&amp;dopt=Abstract">View Article</a><br>
+                Cytoplasmic polyhedrosis virus structure at 8 A by electron cryomicroscopy: structural basis of capsid stability and mRNA processing regulation.<br>
+                Zhou ZH, Zhang H, Jakana J, Lu XY, Zhang JQ<br>
+                <br>
+                The single-shelled cytoplasmic polyhedrosis virus (CPV) is a unique member of the Reoviridae. Despite lacking protective outer shells, it exhibits striking capsid stability and is
+                capable of endogenous RNA transcription and processing. The 8 A three-dimensional structure of CPV by electron cryomicroscopy reveals secondary structure elements present in the
+                capsid proteins CSP, LPP, and TP, which have alpha+beta folds. The extensive nonequivalent interactions between CSP and LPP, the unique CSP protrusion domain, and the perfect
+                inter-CSP surface complementarities may account for the enhanced capsid stability. The slanted disposition of TP functional domains and the stacking of channel constrictions suggest
+                an iris diaphragm-like mechanism for opening/closing capsid pores and turret channels in regulating the highly coordinated steps of mRNA transcription, processing, and release.<br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_63/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_63">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_62/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_62/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                February 2003<br>
+                <br>
+                <strong>Nature Structural Biology</strong> <a href="http://www.nature.com/cgi-taf/DynaPage.taf?file=/nsmb/journal/v10/n2/full/nsb891.html">View Article</a><br>
+                Coat protein fold and maturation transition of bacteriophage P22 seen at subnanometer resolutions<br>
+                Wen Jiang, Zongli Li, Zhixian Zhang, Matthew L. Baker, Peter E. Prevelige Jr. &amp; Wah Chiu<br>
+                Nature Structural Biology 10, 131 - 135 (01 Feb 2003)<br>
+                <br>
+                Bacteriophage P22 is a prototypical biological machine used for studying protein complex assembly and capsid maturation. Using cryo-EM, we solved the structures of P22 before and
+                after the capsid maturation at 8.5 � and 9.5 � resolutions, respectively. These structures allowed visualization of -helices and -sheets from which the capsid protein fold is derived.
+                The capsid fold is similar to that of the coat protein of HK97 bacteriophage. The cryo-EM shows that a large conformational change of the P22 capsid during maturation transition
+                involves not only the domain movement of individual subunits, but also refolding of the capsid protein<br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_62/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_62">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_61/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_61/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                January 2003<br>
+                <br>
+                <strong>Journal of Virology</strong> <a href="http://jvi.asm.org/cgi/content/full/77/1/659?view=full&amp;pmid=12477868">View Article</a><br>
+                Paredes A, Alwell-Warda K, Weaver SC, Chiu W, Watowich SJ.<br>
+                Structure of isolated nucleocapsids from venezuelan equine encephalitis virus and implications for assembly and disassembly of enveloped virus.<br>
+                J Virol. 2003 Jan; 77(1): 659-64.<br>
+                <br>
+                Venezuelan equine encephalitis virus (VEEV) is an important human and equine pathogen in the Americas, with widespread reoccurring epidemics extending from South America to the
+                southern United States. Most troubling, VEEV has been made into a weapon by several countries and is currently restricted by the Centers for Disease Control and Prevention as a
+                potential biological warfare and terrorism agent. To facilitate the development of antiviral compounds, the structure of the nucleocapsid isolated from VEEV has been determined by
+                electron cryomicroscopy and image reconstruction and represents the first three-dimensional structure of a nucleocapsid isolated from a single-stranded enveloped RNA virus. The
+                isolated VEEV nucleocapsid undergoes significant reorganization relative to its structure within VEEV. However, the isolated nucleocapsid clearly exhibits T=4 icosahedral symmetry,
+                and its characteristic nucleocapsid hexons and pentons are preserved. The diameter of the isolated nucleocapsid is 11.5% larger than that of the nucleocapsid within VEEV, with radial
+                expansion being greatest near the hexons. Significantly, this is the first direct structural evidence showing that a simple enveloped virus undergoes large conformational changes
+                during maturation, suggesting that the lipid bilayer and the transmembrane proteins of simple enveloped viruses provide the energy necessary to reorganize the nucleocapsid during
+                maturation.<br>
+                <br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_61/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_61">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_57/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_57/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                April 2002<br>
+                <br>
+                <strong>Current Opinion in Structural Biology</strong> <a href=
+                "http://www.sciencedirect.com/science?_ob=ArticleURL&amp;_udi=B6VS6-45JPC7V-P&amp;_user=29261&amp;_handle=W-WA-A-A-WU-MsSAYVA-UUA-AUDVYDBCWU-AEEEBEWAV-WU-U&amp;_fmt=full&amp;_coverDate=04%2F01%2F2002&amp;_rdoc=20&amp;_orig=browse&amp;_srch=%23toc%236254%232002%23999879997%23302251!&amp;_cdi=6254&amp;view=c&amp;_acct=C000003838&amp;_version=1&amp;_urlVersion=0&amp;_userid=29261&amp;md5=a35dcadac0222654caebf23dfb2cae91">
+                View Article</a><br>
+                Deriving folds of macromolecular complexes through electron cryomicroscopy and bioinformatics approaches, Pages 263-269<br>
+                Wah Chiu, Matthew L. Baker, Wen Jiang and Z. Hong Zhou<br>
+                <br>
+                Intermediate-resolution (7�9�) structures of large macromolecular complexes can be obtained by electron cryomicroscopy. This structural information, combined with bioinformatics data
+                for the individual protein components or domains, can lead to a fold model for the entire complex. Such approaches have been demonstrated with the 6.8 � structure of the rice dwarf
+                virus to derive models for the major capsid shell proteins<br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_57/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_57">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_59/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_59/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                March 2002<br>
+                <br>
+                <strong>Molecular Therapy</strong> <a href=
+                "http://www.sciencedirect.com/science?_ob=ArticleURL&amp;_aset=W-WA-A-A-W-MsSAYWA-UUA-AUDVEYUYWE-WUBUCUEDZ-W-U&amp;_rdoc=1&amp;_fmt=full&amp;_udi=B6WNJ-458P5J1-7&amp;_coverDate=03%2F31%2F2002&amp;_cdi=6964&amp;_orig=search&amp;_st=13&amp;_sort=d&amp;view=c&amp;_acct=C000003838&amp;_version=1&amp;_urlVersion=0&amp;_userid=29261&amp;md5=62aa601d1f24c0b9da5e63600cffce42">
+                View Article</a><br>
+                Bilamellar Cationic Liposomes Protect Adenovectors from Preexisting Humoral Immune Responses, Molecular Therapy, Volume 5, Issue 3, March 2002, Pages 233-241<br>
+                Patricia Yotnda, Dong-Hua Chen, Wah Chiu, Pedro A. Piedra, Alan Davis, Nancy Smyth Templeton and Malcolm K. Brenner<br>
+                <br>
+                Adenoviral vectors have been widely used for gene therapy, but they are limited both by the presence of a humoral immune response that dramatically decreases the level of transduction
+                after reinjection and by their requirement for target cells to express appropriate receptors such as Coxsackie adenovirus receptor (CAR). To overcome both limits, we encapsulated
+                adenovectors using bilamellar DOTAP:chol liposomes. Electron micrography (EM) showed that these liposomes efficiently encapsulated the vectors, allowing CAR-independent adenovector
+                transduction of otherwise resistant cells. DOTAP:chol-encapsulated adenovectors encoding LacZ or 1-antitrypsin inhibitor (AAT) were also functionally resistant ex vivo and in vivo to
+                the neutralizing effects of human anti-adenoviral antibodies, unlike other liposomal systems. Hence, bilamellar DOTAP:chol liposomes may be useful for applications using adenovectors
+                in which the target cells lack adenoviral receptors or in which the recipient already has or develops a neutralizing antibody response that would otherwise inactivate readministered
+                vector.<br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_59/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_59">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_58/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_58/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                January 2002<br>
+                <br>
+                <strong>Developmental Biology</strong> <a href=
+                "http://www.sciencedirect.com/science?_ob=ArticleURL&amp;_udi=B6WDG-457V0BD-X&amp;_coverDate=01%2F01%2F2002&amp;_alid=142104264&amp;_rdoc=1&amp;_fmt=&amp;_orig=search&amp;_qd=1&amp;_cdi=6766&amp;_sort=d&amp;view=c&amp;_acct=C000003838&amp;_version=1&amp;_urlVersion=0&amp;_userid=29261&amp;md5=d2abfda606868dc269561c870d857069">
+                View Article</a><br>
+                Kloc, M., Dougherty, M.T., Bilinski, S., Chan, A.P., Brey, E., King, M.L., Patrick, C.W., Jr. &amp; Etkin, L.D.<br>
+                Three-dimensional ultrastructural analysis of RNA distribution within germinal granules of Xenopus.<br>
+                Dev Biol 241 :79-93<br>
+                <br>
+                The germ plasm is a specialized region of oocyte cytoplasm that contains determinants of germ cell fate. In Xenopus oocytes, the germ plasm is a part of the METRO region of
+                mitochondrial cloud. It contains the germinal granules and a variety of coding and noncoding RNAs that include Xcat2, Xlsirts, Xdazl, DEADSouth, Xpat, Xwnt11, fatVg, B7/Fingers,
+                C10/XFACS, and mitochondrial large and small rRNA. We analyzed the distribution of these 11 different RNAs within the various compartments of germ plasm during Xenopus oogenesis and
+                development by using whole-mount electron microscopy in situ hybridization. Serial EM sections were used to reconstruct a three-dimensional image of germinal granule distribution
+                within the METRO region of the cloud and the distribution of RNAs on the granules in oocytes and embryos. We found that, in the oocytes, the majority of RNAs were associated either
+                with the precursor of germinal granules or with the germ plasm matrix. Only Xcat2, Xpat, and DEADSouth RNAs were associated with the mature germinal granules in oocytes, while only
+                Xcat2 and Xpat were associated with germinal granules in embryos. However, Xcat2 was the only RNA that was consistently sequestered inside the germinal granules, while the others were
+                located on the periphery. Xdazl, which functions in germ cell migration/formation, was detected on the matrix between granules. Later in development, Xcat2 mRNA was released from the
+                germinal granules. This coincides with the timing of its translational derepression. These results demonstrate that there is a dynamic three-dimensional architecture to the germinal
+                granules that changes during oogenesis and development. They also indicate that association of specific RNAs with the germinal granules is not a prerequisite for their serving a germ
+                cell function; however, it may be related to their state of translational repression.<br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_58/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_58">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_54/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_54/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                October 2001<br>
+                <br>
+                <strong>Nature Structural Biology</strong> <a href="http://www.nature.com/cgi-taf/DynaPage.taf?file=/nsmb/journal/v8/n10/full/nsb1001-868.html">View Article</a><br>
+                Electron cryomicroscopy and bioinformatics suggest protein fold models for rice dwarf virus pp 868 - 873<br>
+                Z. Hong Zhou, Matthew L. Baker, Wen Jiang, Matthew Dougherty, Joanita Jakana, Gang Dong, Guangying Lu &amp; Wah Chiu<br>
+                <br>
+                The three-dimensional structure of rice dwarf virus was determined to 6.8 � resolution by single particle electron cryomicroscopy. By integrating the structural analysis with
+                bioinformatics, the folds of the proteins in the double-shelled capsid were derived. In the outer shell protein, the uniquely orientated upper and lower domains are composed of
+                similar secondary structure elements but have different relative orientations from that of bluetongue virus in the same Reoviridae family. Differences in both sequence and structure
+                between these proteins may be important in defining virus�host interactions. The inner shell protein adopts a conformation similar to other members of Reoviridae, suggesting a common
+                ancestor that has evolved to infect hosts ranging from plants to animals. Symmetry mismatch between the two shells results in nonequivalent, yet specific, interactions that contribute
+                to the stability of this large macromolecular machine.<br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_54/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_54">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_51/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_51/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                June 2001<br>
+                <br>
+                <strong>Journal of Molecular Biology</strong> <a href=
+                "http://www.sciencedirect.com/science?_ob=ArticleURL&amp;_udi=B6WK7-457CYH4-H8&amp;_user=29261&amp;_handle=W-WA-A-A-AV-MsSAYWW-UUA-AUDVEYWZWW-WUBAADWDV-AV-U&amp;_fmt=full&amp;_coverDate=06%2F15%2F2001&amp;_rdoc=6&amp;_orig=browse&amp;_srch=%23toc%236899%232001%23996909995%23286401!&amp;_cdi=6899&amp;view=c&amp;_acct=C000003838&amp;_version=1&amp;_urlVersion=0&amp;_userid=29261&amp;md5=1e8eaaf1e6f2bfe3bcd6bcaf663441f3">
+                View Article</a><br>
+                Finding and using local symmetry in identifying lower domain movements in hexon subunits of the herpes simplex virus type 1 B capsid1, Pages 903-914<br>
+                Jing He, Michael F. Schmid, Z. Hong Zhou, Frazer Rixon and Wah Chiu<br>
+                <br>
+                A characteristic of virus assembly is the use of symmetry to construct a complex capsid from a limited number of different proteins. Many spherical viruses display not only
+                icosahedral symmetry, but also local symmetries, which further increase the redundancy of their structural proteins. We have developed a computational procedure for evaluating the
+                quality of these local symmetries that allows us to probe the extent of local structural variations among subunits. This type of analysis can also provide orientation parameters for
+                carrying out non-icosahedral averaging of quasi-equivalent subunits during three-dimensional structural determination. We have used this procedure to analyze the three types of hexon
+                (P, E and C) in the 8.5 � resolution map of the herpes simplex virus type 1 (HSV-1) B capsid, determined by electron cryomicroscopy. The comparison of the three hexons showed that
+                they have good overall 6-fold symmetry and are almost identical throughout most of their lengths. The largest difference among the three lies near the inner surface in a region of
+                about 34 � in thickness. In this region, the P hexon displays slightly lower 6-fold symmetry than the C and E hexons. More detailed analysis showed that parts of two of the P hexon
+                subunits are displaced counterclockwise with respect to their expected 6-fold positions. The most highly displaced subunit interacts with a subunit from an adjacent P hexon (P').
+                Using the local 6-fold symmetry axis of the P hexon as a rotation axis, we examined the geometrical relationships among the local symmetry axes of the surrounding capsomeres.
+                Deviations from exact symmetry are also found among these local symmetry axes. The relevance of these findings to the process of capsid assembly is considered.<br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_51/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_51">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_53/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_53/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                May 2001<br>
+                <br>
+                <strong>Journal of Molecular Biology</strong> <a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=11352589&amp;dopt=Abstract">View
+                Article</a><br>
+                Bridging the information gap: computational tools for intermediate resolution structure interpretation1, Pages 1033-1044<br>
+                Wen Jiang, Matthew L. Baker, Steven J. Ludtke and Wah Chiu<br>
+                <br>
+                Due to large sizes and complex nature, few large macromolecular complexes have been solved to atomic resolution. This has lead to an under-representation of these structures, which
+                are composed of novel and/or homologous folds, in the library of known structures and folds. While it is often difficult to achieve a high-resolution model for these structures, X-ray
+                crystallography and electron cryomicroscopy are capable of determining structures of large assemblies at low to intermediate resolutions. To aid in the interpretation and analysis of
+                such structures, we have developed two programs: helixhunter and foldhunter. Helixhunter is capable of reliably identifying helix position, orientation and length using a
+                five-dimensional cross-correlation search of a three-dimensional density map followed by feature extraction. Helixhunter's results can in turn be used to probe a library of secondary
+                structure elements derived from the structures in the Protein Data Bank (PDB). From this analysis, it is then possible to identify potential homologous folds or suggest novel folds
+                based on the arrangement of alpha helix elements, resulting in a structure-based recognition of folds containing alpha helices. Foldhunter uses a six-dimensional cross-correlation
+                search allowing a probe structure to be fitted within a region or component of a target structure. The structural fitting therefore provides a quantitative means to further examine
+                the architecture and organization of large, complex assemblies. These two methods have been successfully tested with simulated structures modeled from the PDB at resolutions between 6
+                and 12 A. With the integration of helixhunter and foldhunter into sequence and structural informatics techniques, we have the potential to deduce or confirm known or novel folds in
+                domains or components within large complexes.<br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_53/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_53">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_60/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_60/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                February 2001<br>
+                <br>
+                <strong>Journal of Structural BIology</strong> <a href=
+                "http://www.sciencedirect.com/science?_ob=ArticleURL&amp;_udi=B6WM5-457V5D0-1B&amp;_user=29261&amp;_handle=W-WA-A-A-AY-MsSAYVA-UUA-AUDVEZWZVE-WUWWYDUEY-AY-U&amp;_fmt=summary&amp;_coverDate=02%2F28%2F2001&amp;_rdoc=1&amp;_orig=browse&amp;_srch=%23toc%236925%232001%23998669997%23286850!&amp;_cdi=6925&amp;view=c&amp;_acct=C000003838&amp;_version=1&amp;_urlVersion=0&amp;_userid=29261&amp;md5=29e7d8a243bd8bb3ec57a5fe01378e89">
+                View Article</a><br>
+                Editorial, Page 89<br>
+                Steven Ludtke and Wah Chiu<br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_60/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_60">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_28/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_28/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                January 2001<br>
+                <br>
+                <strong>Federal Funding for Biomedical and Related Life Sciences Research FY</strong><br>
+                The rapidly increasing quantity of DNA sequence data as well as the powerful technologies available to determine three-dimensional structures of proteins and protein complexes at the
+                atomic level, will provide valuable information for use in rationalized drug design and the development of improved clinical treatments for disease and infection.<br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_28/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_28">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_31/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_31/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                November 2000<br>
+                <br>
+                <strong>Micron</strong><br>
+                Thuman-Commike, P.A. and Chiu, W.<br>
+                Reconstruction principles of icosahedral virus structure determination using electron cryomicroscopy.<br>
+                Micron 31 :687-711.<br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_31/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_31">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_29/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_29/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                April 2000<br>
+                <br>
+                <strong>Journal of Virology</strong><br>
+                Identification of additional coat-scaffoling interactions in a bacteriophage P22 mutatnt defective in maturation.<br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_29/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_29">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_30/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_30/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                March 2000<br>
+                <br>
+                <strong>Journal of Molecular Biology</strong> <a href=
+                "http://www.sciencedirect.com/science?_ob=ArticleURL&amp;_udi=B6WK7-45KNCD0-Y&amp;_user=29261&amp;_handle=W-WA-A-A-WZ-MsSAYWW-UUW-AUDVEWBVYD-WUAVVDZZB-WZ-U&amp;_fmt=full&amp;_coverDate=03%2F31%2F2000&amp;_rdoc=8&amp;_orig=browse&amp;_srch=%23toc%236899%232000%23997029996%23304496!&amp;_cdi=6899&amp;view=c&amp;_acct=C000003838&amp;_version=1&amp;_urlVersion=0&amp;_userid=29261&amp;md5=d4af5368ab4427684bf557fb05bdc7e3">
+                View Article</a><br>
+                Visualization of the maturation transition in bacteriophage P22 by electron cryomicroscopy1, Pages 615-626<br>
+                Zhixian Zhang, Barrie Greene, Pamela A. Thuman-Commike, Joanita Jakana, Peter E. Prevelige, Jr , Jonathan King and Wah Chiu<br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_30/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_30">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_32/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_32/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                October 1999<br>
+                <br>
+                <strong>Journal of Virology</strong><br>
+                A radially colored, shaded surface representation of shell protein densities of herpes simplex virus type 1 VP26- and VP5-VP19C particles shown in half. The VP26- capsid (left) is a
+                T=16 particle of 1,250 � in diameter and VP5-VP19C (right) is a T=7 particle of 880 � in diameter.<br>
+                <br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_32/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_32">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_33/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_33/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                September 1999<br>
+                <br>
+                <strong>Trends in Cell Biology</strong><br>
+                A light micrograph immunostaining of cytoplasmic cofilin-actin rods that form in living cells in respsosnse to stress.<br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_33/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_33">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_34/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_34/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                August 1999<br>
+                <br>
+                <strong>Journal of Molecular Biology</strong><br>
+                An image of an actin filament exhibiting three cofilin-induced 'branches' and a mechanistic model of how these branches might contribute to catastrophic disassembly of F-actin.<br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_34/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_34">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_35/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_35/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                July 1999<br>
+                <br>
+                <strong>Virology</strong><br>
+                A three-dimensional structure of the intact human cytomegalovirus (HCMV) determined to an 18-� resolution by electron cryomicroscopy and computer reconsruction. An icosahedrally
+                ordered teguement layer formed by 960 copies of filamentous density is also visualized, which interacts with the pentons, hexons, and triplexes of the underlying capsid.<br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_35/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_35">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_37/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_37/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                June 1999<br>
+                <br>
+                <strong>Biophysical Journal</strong><br>
+                A schematic of partially assembled bacteriophage P22 procapsids with color coding denoting the quasi-equivalent coat protein subunits and black lines denoting the scaffolding
+                protein.<br>
+                <br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_37/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_37">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_38/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_38/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                April 1999<br>
+                <br>
+                <strong>Journal of Virology</strong><br>
+                Visualization of tegument-capsid interactions and DNA in intact herpes simplex virus type 1 virions.<br>
+                Zhou ZH, Chen DH, Jakana J, Rixon FJ, Chiu W.<br>
+                J Virol. 1999 Apr;73(4):3210-8<br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_38/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_38">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_39/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_39/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                February 1999<br>
+                <br>
+                <strong>Journal of Virology</strong><br>
+                A three-dimensional structure of cytoplasmic polyhedrosis virus, a single-shelled member of the Reoviridae, was determined to 17-� resolution from electron cryomicroscopy images. The
+                full virus (top), which is color-coded according to particle radius, has a T=1 icosahedral capsid shell decorated with 12 characteristic pairs of concentric spikes at its vertices.
+                Structural comparisons of the full and empty capsids have revealed ordered double-stranded RNA inside the full capsid (lower left, yellow and red) and its interactions with the
+                transcriptional enzyme complexes (lower right).<br>
+                <br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_39/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_39">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_40/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_40/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                September 1998<br>
+                <br>
+                <strong>Ultramicroscopy</strong><br>
+                A single-unit cell versus correlation averaging image processing of gp32*I protein crystal images. Multivariate statistical analysis applied to single unit cells, extracted from an
+                image of a crystal, allows to find subsets of unit cells and get more information from such an image.<br>
+                <br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_40/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_40">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_41/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_41/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                January 1998<br>
+                <br>
+                <strong>Biophysical Journal</strong><br>
+                A three-dimensional structures of bacteriophage P22 procapsids assembled in the absence of the scaffolding protein.<br>
+                <br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_41/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_41">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_42/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_42/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                November 1997<br>
+                <br>
+                <strong>Journal of Structural Biology</strong><br>
+                A montage of images from the "Biophysics of Microtubules" workshop held in 1996 at the NCMI.<br>
+                <br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_42/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_42">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_43/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_43/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                January 1997<br>
+                <br>
+                <strong>Structural Biology of Viruses</strong><br>
+                This book was co-edited by Wah Chiu, Roger Burnett, and Robert Garcea and published by Oxford University Press. Topics covered include: mechanisms of cell attachment and entry,
+                principles of virus assembly, as well as virus structure determination by electron microscopy and X-ray crystallography.<br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_43/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_43">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_44/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_44/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                July 1996<br>
+                <br>
+                <strong>Journal of Molecular Biology</strong><br>
+                A three-dimensional reconstruction of the bacteriophage P22 determined to 19� resolution. The outer coat protein can be classified into four unique subunit conformations
+                (highlighted).<br>
+                <br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_44/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_44">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_45/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_45/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                October 1995<br>
+                <br>
+                <strong>Journal of Structural Biology</strong><br>
+                A gallery of F-actin structures. From left to right: aA1-2/F-actin (courtesy of A. McGough), F-actin (courtesy of E. Egelman), thin filament decorated with myosin S1 (courtesy of R.
+                Milligan), F-actin (courtesy of U. Aebi), and scruin/F-actin (courtesy of M. Schmid).<br>
+                <br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_45/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_45">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_46/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_46/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                September 1994<br>
+                <br>
+                <strong>Journal of Molecular Biology</strong><br>
+                A spot scan image of herpesvirus capsids (left) taken on the JEOL4000 cryomicroscope and three computationally extracted hexons (right) comprising the virus capsid.<br>
+                <br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_46/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_46">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_48/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_48/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                July 1994<br>
+                <br>
+                <strong>Journal of Structural Biology</strong><br>
+                An electron diffraction pattern from a crotoxin complex crystal embedded in glucose. The pattern shows reflections out to a resolution better than 3�.<br>
+                <br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_48/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_48">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_47/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_47/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                July 1994<br>
+                <br>
+                <strong>Journal of Molecular Biology</strong><br>
+                A projection map of <em>Bacillus</em> stearothermophilus 50 S ribosomal subunits crystallized on phospholipid monolayers.<br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_47/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_47">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_49/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_49/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                February 1994<br>
+                <br>
+                <strong>The Journal of Cell Biology</strong><br>
+                A 13 � resolution reconstruction of an actin/scruin filament which was computationally isolated from the acrosomal bundle of <em>Limulus</em> sperm. The reconstruction is in green
+                with an atomic model of F-actin (red, white, and blue). The two actin subunits to which scruin binds are shown on the right.<br>
+                <br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_49/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_49">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" width="30%">
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_50/cover2"><img alt="" border="0" height="199" src=
+                "http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_50/cover" title="" width="150"></a>
+            </td>
+
+            <td valign="top">
+                August 1989<br>
+                <br>
+                <strong>EMSA Bulletin</strong><br>
+                A reconstruction obtained from images of tobacco mosaic virus. From a bulletin published by the Electron Microscopy Society of America (now known as the Microscopy Society of
+                America).<br>
+                <br>
+                <br>
+                <br>
+                <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/journalcovers_50/index_edit_html">Edit</a><br>
+                Delete? <input name="deleteme:list" type="checkbox" value="journalcovers_50">
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" colspan="2">
+                You can add a new journal cover <a href="http://ncmi.bcm.edu/ncmi/publication/journalcover/manage_addProduct/NCMI/journalcovers_factory">here</a>
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" colspan="2"><input type="submit" value=" Delete Selected "></td>
+        </tr>
+    </table><!-- end content div -->
+
+    <div id="footer">
+        <a href="http://www.bcm.edu"><img alt="Baylor College of Medicine" id="logo" src="http://ncmi.bcm.edu/ncmi/images/bcmLogo"></a> <a href="http://www.bcm.edu/">BCM Home</a> | <a href=
+        "http://intranet.bcm.edu/">BCM Intranet</a> | <a href="http://www.bcm.edu/about/privacy/notices.cfm">Privacy Notices</a> | <a href="http://www.bcm.edu/about/contact.cfm">Contact BCM</a> |
+        <a href="http://www.bcm.edu/sitemap.cfm">BCM Site Map</a><br>
+        © 1998-2007 Baylor College of Medicine<br>
+        <a href="http://ncmi.bcm.tmc.edu/ncmi">National Center for Macromolecular Imaging</a> | Logged In as <a href="change_password_html"><em>vincentyu</em></a> | <a href=
+        "manage_zmi_logout">LOGOUT</a> |<br>
+        Room N420, 1 Baylor Plaza, Houston, TX 77030 | Phone: 713-798-6989 | Fax: 713-798-1625<br>
+        <a href="mailto:webadmin@blake.grid.bcm.edu">Contact Webmaster</a> | Modified: Jan. 11, 2008
+    </div>
+</body>
+</html>
