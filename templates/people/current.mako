@@ -84,7 +84,6 @@ order.remove('Co-Director')
 order = ['Director', 'Co-Director'] + sorted(order)
 %>
 
-
 <%def name="draw_person(person)">
   <div class="ncmi-person e2l-cf">
   <h3>${person.get('name')}</h3>

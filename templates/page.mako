@@ -1,7 +1,6 @@
 <%inherit file="/base" />
 
 <%block name="css_inline">
-
 html {
   background:#eee;
 }
@@ -22,24 +21,27 @@ body {
   padding:0px;
   border:none;
 }
-  
 
 #ncmi-nav {
-  list-style:none;
-  height:35px;
-  background:#eef;
+  list-style: none;
+  height: 35px;
+  background: #446699;
 }
 #ncmi-nav > li {
-    padding:10px;
+    color: white;
+    padding: 10px;
     float: left;
     position:relative;
+}
+#ncmi-nav a {
+    color: white;
 }
 #ncmi-nav > li > ul {
     width: 186px;
     z-index: 1000;
     list-style:none;
     padding:0px;
-    background:#eef;
+    background: #AACCFF;
     display: none;
     left: 0;
     position: absolute;
@@ -48,6 +50,9 @@ body {
 }
 #ncmi-nav > li > ul > li {
     padding:10px;
+}
+#ncmi-nav > li:hover {
+    background: #AACCFF;
 }
 #ncmi-nav > li:hover > ul {
     display: block;
@@ -62,8 +67,11 @@ body {
 
 }
 
+#ncmi-footer, #ncmi-footer a {
+}
 #ncmi-footer {
-  background:#eef;
+    border-top: solid 2px #ccc;
+  background: white;
   font-size:.85em;History is off
   padding-bottom:10px;
 }
@@ -86,9 +94,6 @@ body {
 .ncmi-person p {
   padding:10px;
 }
-
-
-
 </%block>
 
 
@@ -98,7 +103,7 @@ body {
   <h1><img src="http://ncmi.bcm.edu/ncmi/images/title2.jpg" alt="National Center for Macromolecular Imaging" /></h1>
 
 <ul id="ncmi-nav" class="ncmi-test">
-  <li><a href="/about">About</a>
+  <li><a href="">About</a>
     <ul>
       <li><a href="/about/maps">Maps</a></li>
       <li><a href="/about/mission">Mission Statement</a></li>
@@ -106,7 +111,7 @@ body {
     </ul>
   </li>
 
-  <li><a href="/people">People</a>
+  <li><a href="">People</a>
     <ul>
       <li><a href="/people/current">Current faculty &amp; staff</a></li>
       <li><a href="">Alumni</a></li>
@@ -133,21 +138,26 @@ body {
   
   <li><a href="">Publications</a>
     <ul>
-      <li><a href="">Stuff</a></li>
+      <li><a href="/publications/publications">Peer-reviewed publications</a></li>
+      <li><a href="/publications/journalcovers">Journal covers</a></li>
+      <li><a href="/publications/magazinefeatures">Press and magazine features</a></li>
     </ul>    
   </li>
   
   <li><a href="">Events</a>
     <ul>
-      <li><a href="">Stuff</a></li>
+      <li><a href="">Workshops &amp; Symposia</a></li>
+      <li><a href="">Archived video lectures</a></li>
     </ul>    
   </li>
   
   <li><a href="">Collaborations</a>
     <ul>
-      <li><a href="">Stuff</a></li>
+      <li><a href="">Submit a proposal</a></li>
+      <li><a href="">Edit proposal</a></li>
     </ul>
-    </li>
+  </li>
+    
   </ul>
 
 </div>
@@ -174,6 +184,4 @@ ${next.body()}
 <a href="http://www.bcm.edu/sitemap.cfm">BCM Site Map</a><br />
 <a href="http://ncmi.bcm.tmc.edu/ncmi">National Center for Macromolecular Imaging</a><br> 
 Room N420, 1 Baylor Plaza, Houston, TX 77030 | Phone: 713-798-6989 | Fax: 713-798-162
-
-
 </div>
